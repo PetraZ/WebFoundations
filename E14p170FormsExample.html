@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms</title>
+</head>
+<body>
+	<form action='http:://www.google.php' method="get">
+		<fieldset>
+			<legend>Personal Info</legend>
+			<label>Name:<br>
+			<input type="text" name="Name"> </label><br>
+			<label>Email:<br>
+			<input type="text" name="Email"> </label><br>
+			<label>Telephone:<br>
+			<input type="text" name="Telephone"> </label><br>
+		</fieldset>
+
+		<fieldset>
+			<legend>Applicant details</legend>
+			<label>Your desired job title</label><br>
+			<select>
+				<option>Machine learning Engineer</option>
+				<option>Data Scientist</option>
+			</select><br>
+			<label>Salary Expectation(monthly)</label><br>
+			<input type="num" name="salary"><br>
+			<label>Your Skill sets(seperate by comma)<br>
+			<input type="text" name="Skills"></label><br>
+			<label>Highest Education</label><br>
+			<select>
+				<option>Bachlor</option>
+				<option>Master</option>
+				<option>Doctor</option>
+			</select><br>
+			<label>Do you have work authority in the US?<br>
+				<input type="radio" name="work authority">
+				Yes
+			</label>
+			<label>
+				<input type="radio" name="work authority">
+				No
+			</label>
+			<br>
+			<label>Additional Infomation<br>
+				<textarea rows="4",cols="40">
+				</textarea>
+			</label><br>
+
+		<input type="submit" name="Submit application">
+
+		</fieldset>
+	</form>
+</body>
+</html>
